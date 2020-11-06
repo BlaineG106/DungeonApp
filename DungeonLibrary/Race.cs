@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dungeon
+namespace DungeonLibrary
 {
-    class Program
+    public enum Race
     {
-        static void Main(string[] args)
-        {
-        }
+        Archer,
+        Mage,
+        Knight,
     }
 }
